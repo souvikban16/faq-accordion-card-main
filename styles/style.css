@@ -1,0 +1,11 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root{
+    --fontblue: hsl(238, 29%, 16%);
+    --fontred: hsl(14, 88%, 65%);
+    --softviolet: hsl(273, 75%, 66%);
+    --softblue: hsl(240, 73%, 65%);
+    --dividergblue: hsl(240, 5%, 91%);
+}
