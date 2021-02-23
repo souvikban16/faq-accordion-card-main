@@ -18,23 +18,66 @@
   </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <script src="/scripts/script.js"></script>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+  <div class="card">
+    <div class="leftblock">
+      <!-- for the design part -->
+      <img src="/images/illustration-woman-online-desktop.svg" alt="" id="woman">
+      <img src="/images/illustration-box-desktop.svg" alt=" " id="box">
+    </div>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+    <div class="rightblock">
+      <h1 class="faq">
+        FAQ
+      </h1>
+      <div class="points">
+        <div class="pointtext">
+          <div class="tit" onclick="showPoint1()" id="p1">
+            How many team members can I invite?
+            <img src="/images/icon-arrow-down.svg" alt="" class="arrow" id="p1">
+          </div>
+          <br>
+          <div class="show" id="pt1">You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</div>
+        </div>
+        <div class="pointtext">
+          <div class="tit" onclick="showPoint2()" id="p2">
+            What is the maximum file upload size?
+            <img src="/images/icon-arrow-down.svg" alt="" class="arrow" id="p1">
+          </div>
+          <br>
+          <div class="show" id="pt2">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+        </div>
+        <div class="pointtext">
+          <div class="tit" onclick="showPoint3()" id="p3">
+            How do I reset my password?
+            <img src="/images/icon-arrow-down.svg" alt="" class="arrow" id="p2">
+          </div>
+          <br>
+          <div class="show" id="pt3">Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</div>
+        </div>
+        <div class="pointtext">
+          <div class="tit" onclick="showPoint4()" id="p4">
+            Can I cancel my subscription?
+            <img src="/images/icon-arrow-down.svg" alt="" class="arrow" id="p3">
+          </div>
+          <br>
+          <div class="show" id="pt4">Yes! Send us a message and we’ll process your request no questions asked.</div>
+        </div>
+        <div class="pointtext">
+          <div class="tit" onclick="showPoint5()" id="p5">
+            Do you provide additional support?
+            <img src="/images/icon-arrow-down.svg" alt="" class="arrow" id="p4">
+          </div>
+          <br>
+          <div class="show" id="pt5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+        </div>
+      </div>
+    </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
